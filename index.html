@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <!--Meta tag
+    ======================-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+     <!--font awesome cdn link
+    ======================-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+   <!--Site title
+    ======================-->
     <title>Admin Panel</title>
+
 </link>
 <body>
     
@@ -16,15 +32,121 @@
             
         </div>
         <ul>
-            <li>Dashboard</li>
-            <li>Students</li>
-            <li>Teachers</li>
-            <li>Schools</li>
-            <li>Help</li>
-            <li>Settings</li>
+            <li><i class="fa-solid fa-table-columns"></i>&nbsp; Dashboard</li>
+            <li><i class="fa-solid fa-book-open-reader"></i>&nbsp;Students</li>
+            <li><i class="fa-solid fa-person-chalkboard"></i>&nbsp;Teachers</li>
+            <li><i class="fa-solid fa-hand-holding-dollar"></i>&nbsp;Income</li>
+            <li><i class="fa-sharp fa-solid fa-school"></i>&nbsp;Schools</li>
+            <li><i class="fa-regular fa-circle-question"></i>&nbsp;Help</li>
+            <li><i class="fa-solid fa-gear"></i>&nbsp; Settings</li>
         </ul>
         
     </div>
+
+<div class="container">
+    <div class="header">
+        <div class="nav">
+            <div class="search">
+                <input type="text" placeholder="search here">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+            <div class="user">
+                <a href="#" class="btn">Add New</a>
+                <i class="fa-solid fa-bell"></i>
+
+                <div class="img_case">
+                    <i class="fa-solid fa-user "></i> 
+                </div>
+            </div>
+            
+        </div>   
+    </div>
+
+
+<!--Card-->
+
+<div class="content">
+    <div class="cards">
+        <div class="card">
+            <div class="box">
+                <h1>4634</h1>
+                <h3>Students</h3>
+            </div>
+
+            <div class="icon_case">
+               <img src="img/reading-book.png" alt="">
+            </div>
+        </div> 
+        
+        <div class="card">
+            <div class="box">
+                <h1>55765</h1>
+                <h3>Teacher</h3>
+            </div>
+
+            <div class="icon_case">
+               <img src="img/teachers.png" alt="">
+            </div>
+        </div> 
+
+        <div class="card">
+            <div class="box">
+                <h1>478575</h1>
+                <h3>School</h3>
+            </div>
+
+            <div class="icon_case">
+               <img src="img/schools.png" alt="">
+            </div>
+        </div> 
+
+        <div class="card">
+            <div class="box"> 
+                <h1>8678</h1>
+                <h3>Income</h3>
+            </div>
+
+            <div class="icon_case">
+               <img src="img/income.png" alt="">
+            </div>
+        </div> 
+
+    </div>
+
+
+    <div class="content_2">
+        <div class="recent_payments">
+            <div class="title">
+                <h2>Recent Payments</h2>
+                <a href="#" class="btn">View All</a>
+            </div>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>School</th>
+                    <th>Amount</th>
+                    <th>Option</th>
+                </tr>
+
+                <tr>
+                    <td>John Doe</td>
+                    <td>St. james College</td>
+                    <td>$120</td>
+                    <td><a href="#" class="btn">View</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="new_students">
+            <div class="title">
+                <h2>New students</h2>
+                <a href="#" class="btn">View All</a>
+            </div>
+        </div>
+    </div>  
+
+</div>
+</div>
 
 
 
